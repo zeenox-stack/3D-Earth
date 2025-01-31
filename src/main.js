@@ -16,9 +16,9 @@ document.body.appendChild(renderer.domElement);
 const loader = new THREE.TextureLoader();
 
 const earthMap = {
-  normal: loader.load("public/assets/earthMap.jpg"), 
-  lights: loader.load("public/assets/earthlights4k.jpg"), 
-  clouds: loader.load("public/assets/earthcloudmap.jpg"),
+  normal: loader.load("assets/earthMap.jpg"), 
+  lights: loader.load("assets/earthlights4k.jpg"), 
+  clouds: loader.load("assets/earthcloudmap.jpg"),
 };
 
 const earthGeo = new THREE.IcosahedronGeometry(1, 12);
